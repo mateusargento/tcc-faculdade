@@ -1,0 +1,399 @@
+@charset "UTF-8";
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ---                                         Mobile                                          --- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 992px)
+{
+body
+{
+	margin: 0;
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+}
+
+#conteudo-menu-mobile, #conteudo-menu-mobile /* Código utilizado para ocultar partes exclusivas do site Mobile */
+{
+	display: none;
+}
+
+/* --------------------------------------------------- */
+/* ---               Corpo do site                 --- */
+/* --------------------------------------------------- */
+#conteudo-site /* Utilizado para site responsivo, centralizando o conteúdo a partir de 1920px de resolução */
+{
+	max-width: 1920px;
+	margin: auto;
+}
+
+/* ---------------------------------------- Serviço ---------------------------------------- */
+
+#servico { grid-area: servico; } /* Onde ficam imagem e o nome do serviço */
+#servico-personalizacao { grid-area: sc; } /* Onde ficam as opções de personalização */
+#descricao { grid-area: descricao; }
+#recomendacao { grid-area: recomendacao;}
+
+#div 
+{ 
+    width: 80%; 
+    display: grid;
+    grid-template-areas: 
+	'servico servico'
+	'sc sc'
+    'descricao descricao'
+    'recomendacao recomendacao'; 
+	margin: auto;
+	margin-top: 5%; 
+}
+
+#servico { border-right: 1px solid rgb(180, 180, 180); }
+
+#servico-imagem
+{
+    width: 50%; 
+	margin: 0px 25% 0px 25%;
+	padding: 10px 0px 30px 0px;
+}
+
+#servico-informacao { text-align: center; } /* Onde ficam o nome do produto e o preço inicial */
+
+#servico-texto /* Nome do produto e onde fica escrito Preço com a personalização */
+{
+	font-size: 28pt;
+	text-decoration: none;
+	margin-bottom: 0px;
+} #preco { font-size: 18pt; font-weight: bold; }
+
+#servico-preco-inicial { color: #ff9600; } /* Onde fica escrito o preço inicial do produto em roxo */
+
+#titulo-personalizacao { font-size: 28pt; } /* Labels de cada personalização */
+
+#titulo-grande { margin-top: 0px; padding-left: 30px; }
+#texto-grande { font-size: 28pt; }
+
+form
+{
+	font-size: 28pt;
+    padding-left: 30px;
+}
+
+input[type=radio]
+{
+	width: 29px;
+	height: 29px;
+}
+
+#nome_do_negocio, #ramo_de_atuacao, #text_area /* Inputs do formulário das páginas dos serviços */
+{
+	
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	font-size: 28pt;
+	width: 90%;
+	border: none;
+	border-bottom: 2px solid #660094;
+	margin-bottom: 10px;
+	padding: 10px;
+	outline: none;
+	transition: 0.5s;
+}
+
+#nome_do_negocio:focus, #ramo_de_atuacao:focus, #text_area:focus
+{
+	background-color: #f2f2f2;
+	border-radius: 3px;
+	transition: 0.5s;
+}
+
+#p4 /* Input de quantidade */
+{
+    width: 20%;
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	font-size: 28pt;
+	border: none;
+	border-bottom: 2px solid #660094;
+	border-radius: 3px;
+    margin-bottom: 10px;
+	outline: none;
+    transition: 0.5s;
+}
+
+#preco_descricao /* Onde ficam escrito Preço com a personalizaçao, o preço e o valor em 10x parcelado */
+{
+    width: 100%;
+	text-align: center;
+}
+
+#preco /* Preço do produto com personalização, mostrado perto do botão de comprar */
+{
+    font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+    font-size: 28pt; 
+    font-weight: bold; 
+    text-align: center;
+    border: none;
+} #parcela, #numero-de-parcelas { font-size: 28pt; }
+#preco-outros { font-size: 18pt } /* Preço dos outros produtos, que ficam como opções, abaixo da tela */
+
+#submit
+{
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	font-size: 28pt;
+	color: #ffffff;
+	background: #660094;
+	width: 70%;
+	position: relative;
+	border: none;
+    border-radius: 10px;
+    margin: 30px 15% 30px 15%;
+	padding: 10px 0px 10px 0px;
+	cursor: pointer;
+}
+
+/* ---------------------------------------- Descrição ---------------------------------------- */
+#descricao, #ul-descricao { font-size: 22pt; text-align: left; margin-bottom: 10%; }
+
+/* ---------------------------------------- Rodapé ---------------------------------------- */
+#rodape
+{
+	background: #f2f2f2;
+	display: block;
+	position: relative;
+	margin: auto;
+}
+
+#rodape-logo { width: 490px; margin: auto; }
+
+#rodape-logo-imagem
+{
+	width: 490px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#rodape-texto
+{
+	width: 100%;
+	font-size: 8pt;
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+}
+
+i { margin: auto; margin-top: 30px; margin-bottom: 50px; margin-left: 110px; text-align: center; }
+/* --------------------------------------------------- */
+/* ---            Fim do corpo do site             --- */
+/* --------------------------------------------------- */	
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ---                                         Desktop                                         --- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 1000px)
+{
+body
+{
+	margin: 0;
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+}
+
+#conteudo-menu-mobile, #conteudo-menu-mobile, #button-menu-mobile, #button-fechar-mobile, #banner-mobile /* Código utilizado para ocultar partes exclusivas do site Mobile */
+{
+	display: none;
+}
+
+/* --------------------------------------------------- */
+/* ---               Corpo do site                 --- */
+/* --------------------------------------------------- */
+#conteudo-site /* Utilizado para site responsivo, centralizando o conteúdo a partir de 1920px de resolução */
+{
+	max-width: 1920px;
+	margin: auto;
+}
+
+/* ---------------------------------------- Serviço ---------------------------------------- */
+
+#servico { grid-area: servico; } /* Onde ficam imagem e o nome do serviço */
+#servico-personalizacao { grid-area: sc; } /* Onde ficam as opções de personalização */
+#descricao { grid-area: descricao; }
+#recomendacao { grid-area: recomendacao;}
+
+#div 
+{ 
+    width: 90%; 
+    display: grid;
+    grid-template-areas: 
+    'servico sc'
+    'descricao descricao'
+    'recomendacao recomendacao'; 
+    margin: 50px 5% 50px 5%; 
+}
+
+#servico { border-right: 1px solid rgb(180, 180, 180); }
+
+#servico-imagem
+{
+    width: 50%; 
+	margin: 0px 25% 0px 25%;
+	padding: 10px 0px 30px 0px;
+}
+
+#servico-informacao { text-align: center; } /* Onde ficam o nome do produto e o preço inicial */
+
+#servico-texto /* Nome do produto e onde fica escrito Preço com a personalização */
+{
+	font-size: 22pt;
+	text-decoration: none;
+	margin-bottom: 0px;
+} #preco { font-size: 18pt; font-weight: bold; }
+
+#servico-preco-inicial { color: #ff9600; } /* Onde fica escrito o preço inicial do produto em roxo */
+
+#titulo-personalizacao { font-size: 15pt; } /* Labels de cada personalização */
+
+#titulo-grande { margin-top: 0px; padding-left: 30px; }
+#texto-grande { font-size: 16pt; }
+
+form
+{
+	font-size: 12pt;
+    padding-left: 30px;
+}
+
+#nome_do_negocio, #ramo_de_atuacao, #text_area /* Inputs do formulário das páginas dos serviços */
+{
+	
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	font-size: 12pt;
+	width: 70%;
+	border: none;
+	border-bottom: 2px solid #660094;
+	margin-bottom: 10px;
+	padding: 10px;
+	outline: none;
+	transition: 0.5s;
+}
+
+#nome_do_negocio:focus, #ramo_de_atuacao:focus, #text_area:focus
+{
+	background-color: #f2f2f2;
+	border-radius: 3px;
+	transition: 0.5s;
+}
+
+#p4 /* Input de quantidade */
+{
+    width: 20%;
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	font-size: 12pt;
+	border: none;
+	border-bottom: 2px solid #660094;
+	border-radius: 3px;
+    margin-bottom: 10px;
+	outline: none;
+    transition: 0.5s;
+}
+
+#preco_descricao /* Onde ficam escrito Preço com a personalizaçao, o preço e o valor em 10x parcelado */
+{
+    width: 100%;
+	text-align: center;
+}
+
+#preco /* Preço do produto com personalização, mostrado perto do botão de comprar */
+{
+    font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+    font-size: 22pt; 
+    font-weight: bold; 
+    text-align: center;
+    border: none;
+} #parcela, #numero-de-parcelas { font-size: 16pt; }
+#preco-outros { font-size: 14pt } /* Preço dos outros produtos, que ficam como opções, abaixo da tela */
+
+#submit
+{
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14pt;
+	color: #ffffff;
+	background: #660094;
+	width: 50%;
+	position: relative;
+	border: none;
+    border-radius: 10px;
+    margin: 30px 0px 30px 0px;
+	padding: 10px 0px 10px 0px;
+	cursor: pointer;
+}
+
+/* ---------------------------------------- Recomendação ---------------------------------------- */
+#servicos
+{
+	width: 60%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 30px;
+	margin: auto;
+    padding: 30px;
+}
+
+#grid-conteudo {  box-shadow: 0 5px 12px #00000020; }
+
+#grid-informacao { padding: 0px 30px 30px 30px; text-align: center; }
+
+#servicos-links, #servicos-preco
+{
+	font-size: 14pt;
+	color: #000000;
+	text-decoration: none;
+} #servicos-preco { font-weight: bold; }
+
+#servicos-imagens 
+{
+	width: 80%;
+	margin-left: 15%;
+	margin: auto;
+    padding: 10px 0px 10px 10%;
+}
+
+/* ---------------------------------------- Rodapé ---------------------------------------- */
+#rodape
+{
+	background: #f2f2f2;
+	display: flex;
+	position: relative;
+}
+
+#rodape-logo { width: 10%; }
+
+#rodape-logo-imagem
+{
+	margin: 30px 0 30px 30px;
+	width: 100%;
+}
+
+#rodape-texto
+{
+	width: 100%;
+	font-size: 12pt;
+	font-weight: bold;
+	margin: auto;
+	margin-left: 50px;
+}
+
+i { margin: auto; margin-right: 30px; }
+
+/* --------------------------------------------------- */
+/* ---            Fim do corpo do site             --- */
+/* --------------------------------------------------- */
+}

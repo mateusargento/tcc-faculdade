@@ -1,0 +1,346 @@
+@charset "UTF-8";
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ---                                         Mobile                                          --- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 992px)
+{
+body
+{
+	margin: 0;
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+}
+
+#conteudo-menu-links, #login-e-cadastro, #banner /* Código utilizado para ocultar partes exclusivas do site Mobile */
+{
+	display: none;
+}
+
+/* --------------------------------------------------- */
+/* ---               Corpo do site                 --- */
+/* --------------------------------------------------- */
+#conteudo-site /* Utilizado para site responsivo, centralizando o conteúdo a partir de 1920px de resolução */
+{
+	max-width: 1920px;
+	margin: auto;
+}
+
+#caixa-titulo
+{
+	color: #ffffff; /* Branco */
+	background: #660094; /* Roxo */
+	margin-top: 1px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+#titulo /* Textos das caixas de perguntas */
+{
+	font-size: 32pt;
+	font-weight: bold;
+	margin: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+#menu-vertical-link /* Link para as páginas do site */
+{
+	color: #660094; /* Branco */
+	text-decoration: none;
+}
+
+#caixa-menu
+{
+    width: 80%;
+    margin-top: 7px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#caixa-menu-titulo
+{
+	border-bottom: 5px solid #660094;
+    margin: auto;
+    padding: 20px;
+	padding-right: 5%;
+	outline: none;
+}
+
+#c1-mobile
+{
+	font-size: 32pt;
+	font-weight: bold;
+}
+
+#c1 /* Textos das caixas de perguntas */
+{
+	font-size: 32pt;
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 5%;
+}
+
+#c2 /* Textos das caixas de respostas */
+{
+	font-size: 32pt;
+	font-weight: normal;
+	margin: 0;
+	padding: 20px;
+	padding-left: 10%;
+}
+
+#q11 /* Sinais de mais e menos no final das caixas de perguntas */
+{
+	float: right;
+	padding-left: 35px;
+}
+
+#q1 /* Caixas de respostas */
+{
+	color: #000000;
+	background: #f2f2f2;
+	border-radius: 8px;
+	display: none;
+	overflow: hidden;
+}
+
+form
+{
+    width: 80%;
+	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 5%;
+}
+
+#c1-mobile
+{
+	font-size: 32pt;
+	font-weight: bold;
+}
+
+#form-label, #form-label-datadenascimento, #form-label-tipodecadastro
+{
+    font-size: 32pt;
+	margin-left: 10px;
+}
+
+#senhaatual, #senha, #confirmarsenha
+{
+    width: 95%;
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	font-size: 32pt;
+	border: none;
+	border-bottom: 5px solid #660094;
+    margin-bottom: 10px;
+	padding: 10px;
+	outline: none;
+    transition: 0.5s;
+}
+
+#tipodecadastro-mobile
+{
+	background: #ffffff;
+	margin-bottom: 50px;
+}
+
+#senhaatual:focus, #senha:focus, #confirmarsenha:focus
+{
+	background-color: #f2f2f2;
+	border-radius: 3px;
+	transition: 0.5s;
+}
+
+#submit
+{
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	font-size: 38pt;
+	color: #ffffff;
+	background: #660094;
+	width: 30%;
+	position: relative;
+    border: none;
+    border-radius: 2px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	cursor: pointer;
+	left: 35%;
+}
+
+#rodape
+{
+	background: #f2f2f2; /* Cinza */
+	text-align: center;
+	position: relative;
+}
+
+#logotipo-rodape
+{ 
+	width: 500px;
+}
+
+#rodape-texto
+{
+	margin: auto;
+	padding: 35px;
+}
+
+#dividir-para-dois-formularios-pessoa-juridica, #pessoafisica, #pessoajuridica, #form-label-pessoa-fisica, #form-label-pessoa-juridica
+{
+	display: none;
+}
+/* --------------------------------------------------- */
+/* ---            Fim do corpo do site             --- */
+/* --------------------------------------------------- */	
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ---                                         Desktop                                         --- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 1000px)
+{
+body
+{
+	margin: 0;
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+}
+
+#conteudo-menu-mobile, #conteudo-menu-mobile, #button-menu-mobile, #button-fechar, #banner-mobile /* Código utilizado para ocultar partes exclusivas do site Mobile */
+{
+	display: none;
+}
+
+/* --------------------------------------------------- */
+/* ---               Corpo do site                 --- */
+/* --------------------------------------------------- */
+#conteudo-site /* Utilizado para site responsivo, centralizando o conteúdo a partir de 1920px de resolução */
+{
+	max-width: 1920px;
+	margin: auto;
+}
+
+/* ---------------------------------------- Título ---------------------------------------- */
+
+#banner-titulo
+{
+	margin-top: 1px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+#titulo-imagem { width: 100%; }
+
+#titulo
+{
+	font-size: 32pt;
+	font-weight: bold;
+	margin: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+/* ------------------------------------ Menu Vertical ------------------------------------ */
+#div
+{
+	width: 70%;
+	display: grid;
+	grid-template-columns: 15% auto;
+    margin: 5% auto 20% auto;
+}
+
+#menu-vertical-link { font-size: 16pt; color: #660094; text-decoration: none; }
+#menu-vertical-link:hover 
+{ 
+	color: #ff9600;
+	transition: 0.3s; 
+}
+
+#titulo-grande
+{
+	margin: auto;
+}
+
+#texto-grande
+{
+	font-size: 12pt;
+	font-weight: normal;
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#texto-pequeno
+{
+	font-size: 12pt;
+	font-weight: normal;
+	margin: 0;
+	padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* ---------------------------------------- Formulário ---------------------------------------- */
+
+form
+{
+	font-size: 12pt;
+    margin: 0px 10% 0px 5%;
+}
+
+#form-label { padding-left: 10px; }
+
+#submit
+{
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14pt;
+	color: #ffffff;
+	background: #660094;
+	width: 30%;
+	position: relative;
+	border: none;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	cursor: pointer;
+	left: 35%;
+}
+
+/* ---------------------------------------- Rodapé ---------------------------------------- */
+#rodape
+{
+	background: #f2f2f2;
+	display: flex;
+	position: relative;
+}
+
+#rodape-logo { width: 10%; }
+
+#rodape-logo-imagem
+{
+	margin: 30px 0 30px 30px;
+	width: 100%;
+}
+
+#rodape-texto
+{
+	width: 100%;
+	font-size: 12pt;
+	font-weight: bold;
+	margin: auto;
+	margin-left: 50px;
+}
+
+i { margin: auto; margin-right: 30px; }
+}

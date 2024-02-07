@@ -1,0 +1,371 @@
+@charset "UTF-8";
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ---                                         Mobile                                          --- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 992px)
+{
+body
+{
+	margin: 0;
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+}
+
+#conteudo-menu-mobile, #conteudo-menu-mobile, #compras-status /* Código utilizado para ocultar partes exclusivas do site Mobile */
+{
+	display: none;
+}
+
+/* --------------------------------------------------- */
+/* ---               Corpo do site                 --- */
+/* --------------------------------------------------- */
+#conteudo-site /* Utilizado para site responsivo, centralizando o conteúdo a partir de 1920px de resolução */
+{
+	max-width: 1920px;
+	margin: auto;
+}
+
+/* ---------------------------------------- Título ---------------------------------------- */
+
+#banner-titulo
+{
+	margin-top: 1px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+#titulo-imagem { width: 100%; }
+
+#titulo
+{
+	font-size: 46pt;
+	font-weight: bold;
+	margin: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+/* ------------------------------------ Menu Vertical ------------------------------------ */
+#div
+{
+	width: 80%;
+	display: grid;
+	grid-template-columns: auto;
+	margin: auto;
+}
+
+#menu-vertical-ul
+{
+	font-size: 28pt;
+	background-color: #f2f2f2;
+	border-radius: 20px;
+	margin: auto;
+	padding: 40px;
+}
+
+#menu-vertical-li > a { text-decoration: none; color: #660094; }
+#menu-vertical-li > a:hover 
+{ 
+	color: #ff9600;
+	transition: 0.3s; 
+}
+
+#compras-ul { padding-left: 30px; }
+
+#titulo-grande
+{
+	font-size: 32pt;
+	margin: auto;
+	text-align: center;
+}#compras-data-da-entrega > #compras-ul > #texto-grande { padding-left: 0px; }
+
+#texto-grande
+{
+	font-size: 12pt;
+	font-weight: normal;
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#texto-pequeno
+{
+	font-size: 12pt;
+	font-weight: normal;
+	margin: 0;
+	padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#menu-vertical-li { padding: 0px; font-size: 18pt; }
+
+/* ------------------------------------ Pedidos ------------------------------------ */
+
+#compras /* Parte onde ficam os produtos comprados */
+{
+	width: 95%;
+	margin: auto;
+	margin-top: 10%;
+} #compras-ul > li { list-style: none; font-size: 18pt; padding: 0px; }
+
+#compras-numero-do-pedido /* Número do pedido */
+{
+	background: #f2f2f2;
+	margin-bottom: 5px;
+	border: 2px solid #660094; 
+	border-radius: 15px;
+}
+
+#compras-descricao /* Descrição dos produtos comprados */
+{
+	display: block;
+}
+
+#compras-foto /* Caixa da foto dos produtos */
+{
+	width: 30%;
+	margin-top: 5%;
+	padding-left: 35%;
+}
+
+#servico /* Foto dos produtos */
+{
+	width: 100%;
+}
+
+#compras-data-da-entrega /* Data de entrega */
+{
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	color: #008300;
+}
+
+#status-da-compra /* Imagem do Status da compra */
+{
+	width: 50%;
+	margin-left: 25%;
+	margin-bottom: 5%;
+}
+
+#entrega { padding: 0px; }
+
+/* ---------------------------------------- Rodapé ---------------------------------------- */
+#rodape
+{
+	background: #f2f2f2;
+	display: block;
+	position: relative;
+	margin: auto;
+}
+
+#rodape-logo { width: 490px; margin: auto; }
+
+#rodape-logo-imagem
+{
+	width: 490px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#rodape-texto
+{
+	width: 100%;
+	font-size: 8pt;
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+}
+
+i { margin: auto; margin-top: 30px; margin-bottom: 50px; margin-left: 110px; text-align: center; }
+
+#entrega { margin: 0px; color: #660094; }
+/* --------------------------------------------------- */
+/* ---            Fim do corpo do site             --- */
+/* --------------------------------------------------- */	
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ---                                         Desktop                                         --- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 1000px)
+{
+body
+{
+	margin: 0;
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+}
+
+#conteudo-menu-mobile, #conteudo-menu-mobile, #button-menu-mobile, #button-fechar, #banner-mobile, #compras-status-mobile /* Código utilizado para ocultar partes exclusivas do site Mobile */
+{
+	display: none;
+}
+
+/* --------------------------------------------------- */
+/* ---               Corpo do site                 --- */
+/* --------------------------------------------------- */
+#conteudo-site /* Utilizado para site responsivo, centralizando o conteúdo a partir de 1920px de resolução */
+{
+	max-width: 1920px;
+	margin: auto;
+}
+
+/* ---------------------------------------- Título ---------------------------------------- */
+
+#banner-titulo
+{
+	margin-top: 1px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+#titulo-imagem { width: 100%; }
+
+#titulo
+{
+	font-size: 32pt;
+	font-weight: bold;
+	margin: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+/* ------------------------------------ Menu Vertical ------------------------------------ */
+#div
+{
+	width: 70%;
+	display: grid;
+	grid-template-columns: 20% auto;
+	margin: 5% auto 5% auto;
+}
+
+#menu-vertical-ul
+{
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	margin: auto;
+	padding: 40px;
+}
+
+#menu-vertical-li
+{
+	margin-left: 20px;
+} #menu-vertical-li > a { text-decoration: none; color: #660094; }
+#menu-vertical-li > a:hover 
+{ 
+	color: #ff9600;
+	transition: 0.3s; 
+}
+
+#compras-ul { padding-left: 30px; }
+
+#titulo-grande
+{
+	font-size: 16pt;
+	margin: auto;
+	padding: 10px 0px 10px 30px;
+}#compras-data-da-entrega > #compras-ul > #texto-grande { padding-left: 0px; }
+
+#texto-grande
+{
+	font-size: 12pt;
+	font-weight: normal;
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#texto-pequeno
+{
+	font-size: 12pt;
+	font-weight: normal;
+	margin: 0;
+	padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#menu-vertical-li { color: #660094; }
+
+/* ------------------------------------ Pedidos ------------------------------------ */
+
+#compras /* Parte onde ficam os produtos comprados */
+{
+	width: 95%;
+	margin: auto;
+} #compras-ul > li { list-style: none; }
+
+#compras-numero-do-pedido /* Número do pedido */
+{
+	background: #f2f2f2;
+	margin-bottom: 5px;
+	border: 2px solid #660094; 
+	border-radius: 15px;
+}
+
+#compras-descricao /* Descrição dos produtos comprados */
+{
+	display: flex;
+}
+
+#compras-foto /* Caixa da foto dos produtos */
+{
+	width: 80px;
+	padding-left: 15px
+}
+
+#servico /* Foto dos produtos */
+{
+	width: 100%;
+}
+
+#compras-data-da-entrega /* Data de entrega */
+{
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	color: #008300;
+}
+
+#status-da-compra /* Imagem do Status da compra */
+{
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+/* ---------------------------------------- Rodapé ---------------------------------------- */
+#rodape
+{
+	background: #f2f2f2;
+	display: flex;
+	position: relative;
+}
+
+#rodape-logo { width: 10%; }
+
+#rodape-logo-imagem
+{
+	margin: 30px 0 30px 30px;
+	width: 100%;
+}
+
+#rodape-texto
+{
+	width: 100%;
+	font-size: 12pt;
+	font-weight: bold;
+	margin: auto;
+	margin-left: 50px;
+}
+
+i { margin: auto; margin-right: 30px; }
+
+#entrega { margin-right: 5px; color: #660094; }
+}

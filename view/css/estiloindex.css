@@ -1,0 +1,327 @@
+﻿@charset "UTF-8";
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ---                                         Mobile                                          --- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 992px)
+{
+body
+{
+	margin: 0;
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+}
+
+#conteudo-menu-mobile, #conteudo-menu-mobile, #banner /* Código utilizado para ocultar partes exclusivas do site Mobile */
+{
+	display: none;
+}
+
+/* --------------------------------------------------- */
+/* ---               Corpo do site                 --- */
+/* --------------------------------------------------- */
+#conteudo-site /* Utilizado para site responsivo, centralizando o conteúdo a partir de 1920px de resolução */
+{
+	max-width: 1920px;
+	margin: auto;
+}
+
+/* ---------------------------------------- Banner Principal ---------------------------------------- */
+
+#banner
+{
+	position: relative;
+}
+
+#banner-imagem
+{
+	width: 100%;
+}
+
+/* ---------------------------------------- Banner Anúncio ---------------------------------------- */
+
+#banner-anuncio
+{
+	font-size: 28pt;
+	padding: 15px 0 22px 0;
+	text-align: center;
+}
+
+/* ---------------------------------------- Serviços ---------------------------------------- */
+
+#div { background-color: #f2f2f2; }
+
+#servicos
+{
+	width: 65%;
+	display: grid;
+	grid-template-columns: auto;
+	grid-gap: 30px;
+	margin: auto;
+	padding: 30px;
+}
+
+#grid-conteudo /* Da parte de serviços */
+{
+	background-color: #ffffff;
+	box-shadow: 0 8px 12px 0 #00000020;
+}
+
+#grid-informacao { padding: 40px 30px 40px 30px; }
+
+#servicos-links
+{
+	font-size: 32pt;
+	color: #000000;
+	text-decoration: none;
+} #preco { font-weight: bold; }
+
+#servicos-imagens 
+{
+	width: 60%;
+	margin: auto;
+	padding: 30px 50px 10px 20%;
+}
+
+/* ---------------------------------------- Informações ---------------------------------------- */
+
+#informacoes, #informacoes-saiba-como-funciona
+{
+	color: #ffffff;
+	background: #660094;
+	position: relative;
+}#informacoes-saiba-como-funciona { background: #ffffff; color: #000000; }
+
+#informacoes-conteudo
+{
+	display: block;
+	margin-bottom: 10%;
+}
+
+#informacoes-texto
+{
+	width: 80%;
+	margin: auto;
+	padding-top: 10%;
+}
+
+#texto-maior
+{
+	font-size: 38pt;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+#texto-menor
+{
+	font-size: 22pt;
+	font-weight: normal;
+	margin-top: 0;
+}
+
+#informacoes-link, #informacoes-link-saiba-como-funciona
+{
+	font-size: 28pt;
+	color: #ffffff;
+} #informacoes-link-saiba-como-funciona { color: #000000; }
+
+#informacoes-imagem, #informacoes-imagem-saiba-como-funciona
+{
+	width: 100%;
+	margin: auto;
+} #informacoes-imagem-saiba-como-funciona { margin: auto; }
+
+/* ---------------------------------------- Rodapé ---------------------------------------- */
+#rodape
+{
+	background: #f2f2f2;
+	display: block;
+	position: relative;
+	margin: auto;
+}
+
+#rodape-logo { width: 490px; margin: auto; }
+
+#rodape-logo-imagem
+{
+	width: 490px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#rodape-texto
+{
+	width: 100%;
+	font-size: 8pt;
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+}
+
+i { margin: auto; margin-top: 30px; margin-bottom: 50px; margin-left: 110px; text-align: center; }
+/* --------------------------------------------------- */
+/* ---            Fim do corpo do site             --- */
+/* --------------------------------------------------- */
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ---                                         Desktop                                         --- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 1000px)
+{
+body
+{
+	margin: 0;
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+}
+
+/* --------------------------------------------------- */
+/* ---               Corpo do site                 --- */
+/* --------------------------------------------------- */
+#conteudo-site /* Utilizado para site responsivo, centralizando o conteúdo a partir de 1920px de resolução */
+{
+	max-width: 1920px;
+	margin: auto;
+}
+
+/* ---------------------------------------- Banner Principal ---------------------------------------- */
+
+#banner
+{
+	position: relative;
+}
+
+#banner-imagem
+{
+	width: 100%;
+}
+
+/* ---------------------------------------- Banner Anúncio ---------------------------------------- */
+
+#banner-anuncio
+{
+	font-size: 28pt;
+	padding: 15px 0 22px 0;
+	text-align: center;
+}
+
+/* ---------------------------------------- Serviços ---------------------------------------- */
+
+#div { background-color: #f2f2f2; }
+
+#servicos
+{
+	width: 65%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 30px;
+	margin: auto;
+	padding: 30px;
+}
+
+#grid-conteudo /* Da parte de serviços */
+{
+	background-color: #ffffff;
+	box-shadow: 0 8px 12px 0 #00000020;
+}
+
+#grid-informacao { padding: 40px 30px 40px 30px; }
+
+#servicos-links
+{
+	font-size: 14pt;
+	color: #000000;
+	text-decoration: none;
+} #preco { font-weight: bold; }
+
+#servicos-imagens 
+{
+	width: 80%;
+	margin: auto;
+	padding: 10px 0px 10px 10%;
+}
+
+/* ---------------------------------------- Informações ---------------------------------------- */
+
+#informacoes, #informacoes-saiba-como-funciona
+{
+	color: #ffffff;
+	background: #660094;
+	position: relative;
+}#informacoes-saiba-como-funciona { background: #ffffff; color: #000000; }
+
+#informacoes-conteudo
+{
+	display: flex;
+}
+
+#informacoes-texto
+{
+	width: 55%;
+	margin: 10%;
+}
+
+#texto-maior
+{
+	font-size: 28pt;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#texto-menor
+{
+	font-size: 16pt;
+	font-weight: normal;
+	margin-top: 0;
+}
+
+#informacoes-link, #informacoes-link-saiba-como-funciona
+{
+	font-size: 16pt;
+	color: #ffffff;
+} #informacoes-link-saiba-como-funciona { color: #000000; }
+
+#informacoes-imagem, #informacoes-imagem-saiba-como-funciona
+{
+	height: 450px;
+	float: right;
+	margin: 80px 10% 100px 0px;
+} #informacoes-imagem-saiba-como-funciona { margin: 80px 0px 100px 10%; }
+
+/* ---------------------------------------- Rodapé ---------------------------------------- */
+#rodape
+{
+	background: #f2f2f2;
+	display: flex;
+	position: relative;
+}
+
+#rodape-logo { width: 10%; }
+
+#rodape-logo-imagem
+{
+	margin: 30px 0 30px 30px;
+	width: 100%;
+}
+
+#rodape-texto
+{
+	width: 100%;
+	font-size: 12pt;
+	font-weight: bold;
+	margin: auto;
+	margin-left: 50px;
+}
+
+i { margin: auto; margin-right: 30px; }
+
+/* --------------------------------------------------- */
+/* ---            Fim do corpo do site             --- */
+/* --------------------------------------------------- */
+}

@@ -1,0 +1,268 @@
+@charset "UTF-8";
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ---                                         Mobile                                          --- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 992px)
+{
+/* --------------------------------------------------- */
+/* ---                    Menu                     --- */
+/* --------------------------------------------------- */
+#menu 
+{ 
+	background: #660094;
+}
+
+#banner /* Código utilizado para ocultar partes exclusivas do site Mobile */
+{
+	display: none;
+}
+
+#mensagem-menu
+{
+	width: 100%;
+}
+
+#conteudo-menu /* Caixa onde ficam todos os itens do menu */
+{
+	width: 100%;
+}
+
+#conteudo-menu-mobile
+{
+	width: 100%;
+	height: 100%;
+	background: #660094;
+	display: none;
+	top: 0;
+	position: fixed;
+	z-index: 1;
+}
+
+/* -------------- Código para botões mobile -------------- */
+#button-menu-mobile, #button-fechar-mobile
+{
+	font-size: 72pt;
+	color: #ffffff;
+	background: none;
+	border: none;
+	margin-top: 15px;
+	margin-left: 5%;
+	outline: none;
+	position: absolute;
+}
+
+#button-fechar-mobile
+{
+	font-size: 92pt;
+	margin-top: 30px;
+	margin-right: 5%;
+	right: 0; 
+}
+
+#logotipo /* Logotipo que fica na centralizado no site */
+{ 
+	width: 35%;
+	margin: auto;
+	padding-top: 32px;
+	margin-bottom: 42px;
+	display: flex;
+}
+
+#busca /* Caixa onde ficam o input e o botão de busca */
+{
+	width: 90%;
+	margin: auto;
+	padding-bottom: 30px;
+	display: flex; 
+}
+
+#busca-texto /* Input da caixa de busca */
+{
+	width: 85%;
+	font-size: 32pt;
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	border: none;
+	margin-right: 10px;
+	padding: 15px;
+	padding-left: 20px;
+	border-radius: 10px;
+	outline: none;
+}
+
+#busca-botao
+{
+	font-size: 32pt;
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	background: #ffffff;
+	border: none;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#login-e-cadastro-icone-login /* Ícone que fica presente dentro do menu */
+{
+	width: 15%;
+	padding-bottom: 56px;
+}
+
+ul /* Tópicos para as páginas */
+{
+	font-size: 42pt;
+	padding: 10%;
+	text-align: center;
+	list-style: none;
+}
+
+li
+{
+	padding-bottom: 56px;
+}
+
+#menu-link /* Link para as páginas do site */
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#menu-links, #login-e-cadastro
+{
+	display: none;
+	color: #ffffff;
+}
+
+#login-e-cadastro-link
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+/* --------------------------------------------------- */
+/* ---                Fim do menu                  --- */
+/* --------------------------------------------------- */
+	
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ---                                         Desktop                                         --- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 1000px)
+{
+/* --------------------------------------------------- */
+/* ---                    Menu                     --- */
+/* --------------------------------------------------- */
+#menu
+{
+	background: #660094;
+}
+
+#conteudo-menu-mobile, #conteudo-menu-mobile, #button-menu-mobile, #button-fechar-mobile, #banner-mobile /* Código utilizado para ocultar partes exclusivas do site Mobile */
+{
+	display: none;
+}
+
+#conteudo-menu /* Utilizado para site responsivo, centralizando o conteúdo a partir de 1400px de resolução */
+{
+	max-width: 1400px;
+	margin: auto;
+	display: flex;
+}
+
+#conteudo-menu-links /* Utilizado para site responsivo, centralizando o conteúdo a partir de 1400px de resolução */
+{
+	max-width: 1400px;
+	margin: auto;
+	display: flex;
+}
+
+#logotipo /* Logotipo que fica na parte superior esquerda do site */
+{ 
+	width: 100%;
+	padding-top: 10px;
+}
+
+#logotipo-link
+{
+	width: 20%;
+	margin-left: 5%;
+}
+
+#mensagem-menu /* Caixa onde o gif */
+{
+	width: 30%;
+	margin: auto 15% auto 10%;
+	display: flex; /* Usado para caixa de pesquisa e botão ficarem na mesma linha */
+	position: relative;
+}
+
+#login-e-cadastro /* Caixa onde ficam o icone de usuário e os links para login e cadastro */
+{
+	width: 15%;
+	margin-top: 20px;
+	margin-right: 5%;
+	float: right; /* Alinhar parte de login e cadastro a direita */
+	display: flex;
+}
+
+#login-e-cadastro-icone-login
+{
+	height: 45px;
+	margin-right: 25px;
+}
+
+#login-e-cadastro-link
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#login-e-cadastro-link:hover /* Quando o mouse passar por cima do link */
+{
+	color: #ff9600;
+	transition: 0.3s;
+}
+
+#menu-links
+{
+	background-color: #ffffff11;
+}
+
+#menu-links-ul
+{
+	margin: auto;
+	margin-top: 16px;
+	padding-left: 5%;
+	list-style: none;
+	display: flex; 
+	cursor: pointer;
+} 
+
+#menu-links-li
+{ 
+	font-size: 12pt;
+	padding-right: 70px;
+	padding-bottom: 16px;
+}
+
+#menu-link /* Link para as páginas do site */
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#menu-link:hover /* Quando o mouse passar por cima do link */
+{
+	color: #ff9600;
+	transition: 0.3s;
+}
+/* --------------------------------------------------- */
+/* ---                Fim do menu                  --- */
+/* --------------------------------------------------- */
+}

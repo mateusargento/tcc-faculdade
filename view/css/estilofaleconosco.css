@@ -1,0 +1,392 @@
+@charset "UTF-8";
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ---                                         Mobile                                          --- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 992px)
+{
+body
+{
+	margin: 0;
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+}
+
+#conteudo-menu-mobile, #conteudo-menu-mobile /* Código utilizado para ocultar partes exclusivas do site Mobile */
+{
+	display: none;
+}
+
+/* --------------------------------------------------- */
+/* ---               Corpo do site                 --- */
+/* --------------------------------------------------- */
+#conteudo-site /* Utilizado para site responsivo, centralizando o conteúdo a partir de 1920px de resolução */
+{
+	max-width: 1920px;
+	margin: auto;
+}
+
+/* ---------------------------------------- Título ---------------------------------------- */
+
+#banner-titulo
+{
+	margin-top: 1px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+#titulo-imagem { width: 100%; }
+
+#titulo /* Textos das caixas de perguntas */
+{
+	font-size: 46pt;
+	font-weight: bold;
+	margin: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+/* ------------------------------------ Perguntas e respostas prontas ------------------------------------ */
+#div
+{
+	width: 70%;
+	margin: auto;
+	margin-bottom: 5%;
+}
+
+#pergunta
+{
+    margin-top: 7px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#pergunta-pergunta /* A questão */
+{
+    border-bottom: 2px solid #660094;
+    margin: auto;
+	padding: 20px 10px 20px 10px;
+    cursor: pointer;
+}
+
+#titulo-grande
+{
+	font-size: 38pt;
+	margin: auto;
+}
+
+#texto-grande
+{
+	font-size: 22pt;
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#texto-pequeno
+{
+	font-size: 22pt;
+	font-weight: normal;
+	margin: 0;
+	padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#q11, #q21, #q31 /* SPAN, Sinais de mais e menos no final das caixas de perguntas */
+{
+	padding-right: 10px;
+	float: right;
+}
+
+#q1, #q2, #q3 /* RESPOSTAS, Caixas de respostas */
+{
+	display: none;
+    background: #f2f2f2;
+	color: #000000;
+	border-bottom: 3px;
+	overflow: hidden;
+}
+
+/* ---------------------------------------- Formulário ---------------------------------------- */
+
+form
+{
+	font-size: 28pt;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	
+}
+#form-label { padding-left: 10px; }
+
+#nome, #email, #celular, #assunto, #duvida, #textarea /* Inputs do fale conosco */
+{
+	
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	font-size: 28pt;
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid #660094;
+	margin-bottom: 10px;
+	padding: 10px;
+	outline: none;
+	transition: 0.5s;
+}
+
+#nome:focus, #email:focus, #celular:focus, #assunto:focus, #duvida:focus, #textarea:focus
+{
+	background-color: #f2f2f2;
+	border-radius: 3px;
+	transition: 0.5s;
+}
+
+#submit
+{
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	font-size: 28pt;
+	color: #ffffff;
+	background: #660094;
+	width: 30%;
+	position: relative;
+	border: none;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	cursor: pointer;
+	left: 35%;
+}
+
+/* ---------------------------------------- Rodapé ---------------------------------------- */
+#rodape
+{
+	background: #f2f2f2;
+	display: block;
+	position: relative;
+	margin: auto;
+}
+
+#rodape-logo { width: 490px; margin: auto; }
+
+#rodape-logo-imagem
+{
+	width: 490px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#rodape-texto
+{
+	width: 100%;
+	font-size: 8pt;
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+}
+
+i { margin: auto; margin-top: 30px; margin-bottom: 50px; margin-left: 110px; text-align: center; }
+
+/* --------------------------------------------------- */
+/* ---            Fim do corpo do site             --- */
+/* --------------------------------------------------- */
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ---                                         Desktop                                         --- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 1000px)
+{
+body
+{
+	margin: 0;
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+}
+
+#conteudo-menu-mobile, #conteudo-menu-mobile, #button-menu-mobile, #button-fechar, #banner-mobile /* Código utilizado para ocultar partes exclusivas do site Mobile */
+{
+	display: none;
+}
+
+/* --------------------------------------------------- */
+/* ---               Corpo do site                 --- */
+/* --------------------------------------------------- */
+#conteudo-site /* Utilizado para site responsivo, centralizando o conteúdo a partir de 1920px de resolução */
+{
+	max-width: 1920px;
+	margin: auto;
+}
+
+/* ---------------------------------------- Título ---------------------------------------- */
+
+#banner-titulo
+{
+	margin-top: 1px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+#titulo-imagem { width: 100%; }
+
+#titulo /* Textos das caixas de perguntas */
+{
+	font-size: 32pt;
+	font-weight: bold;
+	margin: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+/* ------------------------------------ Perguntas e respostas prontas ------------------------------------ */
+#div
+{
+	width: 60%;
+	margin: auto;
+	margin-bottom: 5%;
+}
+
+#pergunta
+{
+    margin-top: 7px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#pergunta-pergunta /* A questão */
+{
+    border-bottom: 2px solid #660094;
+    margin: auto;
+	padding: 20px 10px 20px 10px;
+    cursor: pointer;
+}
+
+#titulo-grande
+{
+	margin: auto;
+}
+
+#texto-grande
+{
+	font-size: 12pt;
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#texto-pequeno
+{
+	font-size: 12pt;
+	font-weight: normal;
+	margin: 0;
+	padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#q11, #q21, #q31 /* SPAN, Sinais de mais e menos no final das caixas de perguntas */
+{
+	padding-right: 10px;
+	float: right;
+}
+
+#q1, #q2, #q3 /* RESPOSTAS, Caixas de respostas */
+{
+	display: none;
+    background: #f2f2f2;
+	color: #000000;
+	border-bottom: 3px;
+	overflow: hidden;
+}
+
+/* ---------------------------------------- Formulário ---------------------------------------- */
+
+form
+{
+	font-size: 12pt;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	
+}
+#form-label { padding-left: 10px; }
+
+#nome, #email, #celular, #assunto, #duvida, #textarea /* Inputs do fale conosco */
+{
+	
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	font-size: 12pt;
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid #660094;
+	margin-bottom: 10px;
+	padding: 10px;
+	outline: none;
+	transition: 0.5s;
+}
+
+#nome:focus, #email:focus, #celular:focus, #assunto:focus, #duvida:focus, #textarea:focus
+{
+	background-color: #f2f2f2;
+	border-radius: 3px;
+	transition: 0.5s;
+}
+
+#submit
+{
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14pt;
+	color: #ffffff;
+	background: #660094;
+	width: 30%;
+	position: relative;
+	border: none;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	cursor: pointer;
+	left: 35%;
+}
+
+/* ---------------------------------------- Rodapé ---------------------------------------- */
+#rodape
+{
+	background: #f2f2f2;
+	display: flex;
+	position: relative;
+}
+
+#rodape-logo { width: 10%; }
+
+#rodape-logo-imagem
+{
+	margin: 30px 0 30px 30px;
+	width: 100%;
+}
+
+#rodape-texto
+{
+	width: 100%;
+	font-size: 12pt;
+	font-weight: bold;
+	margin: auto;
+	margin-left: 50px;
+}
+
+i { margin: auto; margin-right: 30px; }
+
+/* --------------------------------------------------- */
+/* ---            Fim do corpo do site             --- */
+/* --------------------------------------------------- */
+}

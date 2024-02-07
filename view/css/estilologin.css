@@ -1,0 +1,282 @@
+@charset "UTF-8";
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ---                                         Mobile                                          --- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 992px)
+{
+body
+{
+	margin: 0;
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	background-image: linear-gradient(#660094, #f2f2f2);
+	background-repeat: no-repeat;
+}
+
+#conteudo-menu-mobile, #conteudo-menu-mobile /* Código utilizado para ocultar partes exclusivas do site Mobile */
+{
+	display: none;
+}
+
+/* --------------------------------------------------- */
+/* ---               Corpo do site                 --- */
+/* --------------------------------------------------- */
+#conteudo-site /* Utilizado para site responsivo, centralizando o conteúdo a partir de 1920px de resolução */
+{
+	max-width: 1920px;
+	margin: auto;
+}
+
+#login
+{
+    width: 70%;
+    background: #f2f2f2;
+    margin: auto;
+	margin-top: 10%;
+	margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+form
+{
+	width: 70%;
+	margin: auto;
+}
+
+#titulo /* Título principal da página, que fica abaixo do menu */
+{
+	font-size: 46pt;
+    text-align: center;
+    padding: 80px 0px 10px 0px;
+}
+
+#form-label
+{
+	font-size: 28pt;
+	padding-left: 10px;
+}
+
+#email, #senha
+{
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	font-size: 28pt;
+	width: 100%;
+	background: #f2f2f2;
+	border: none;
+	border-bottom: 2px solid #660094;
+	margin-bottom: 10px;
+	padding: 10px;
+	outline: none;
+	transition: 0.5s;
+}
+
+#email:focus, #senha:focus
+{
+	background-color: #65009410;
+	border-radius: 3px;
+	transition: 0.5s;
+}
+
+#submit
+{
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	font-size: 28pt;
+	color: #ffffff;
+	background: #660094;
+	width: 30%;
+	position: relative;
+	border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	cursor: pointer;
+	left: 35%;
+}
+
+#solicitacoes /* Esqueci a senha */
+{
+	text-align: center;
+	font-size: 28pt;
+	color: #660094;
+	margin-bottom: 25%;
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+/* ---------------------------------------- Rodapé ---------------------------------------- */
+#rodape
+{
+	background: #f2f2f2;
+	display: block;
+	position: relative;
+	margin: auto;
+}
+
+#rodape-logo { width: 490px; margin: auto; }
+
+#rodape-logo-imagem
+{
+	width: 490px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#rodape-texto
+{
+	width: 100%;
+	font-size: 18pt;
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+}
+
+i { margin: auto; margin-top: 30px; margin-bottom: 50px; margin-left: 110px; text-align: center; }
+/* --------------------------------------------------- */
+/* ---            Fim do corpo do site             --- */
+/* --------------------------------------------------- */	
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ---                                         Desktop                                         --- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 1000px)
+{
+body
+{
+	margin: 0;
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	background-image: linear-gradient(#660094, #f2f2f2);
+	background-repeat: no-repeat;
+}
+
+#conteudo-menu-mobile, #conteudo-menu-mobile, #button-menu-mobile, #button-fechar, #banner-mobile /* Código utilizado para ocultar partes exclusivas do site Mobile */
+{
+	display: none;
+}
+
+/* --------------------------------------------------- */
+/* ---               Corpo do site                 --- */
+/* --------------------------------------------------- */
+#conteudo-site /* Utilizado para site responsivo, centralizando o conteúdo a partir de 1920px de resolução */
+{
+	max-width: 1920px;
+	margin: auto;
+}
+
+#login
+{
+    width: 30%;
+    background: #f2f2f2;
+    margin: auto;
+	margin-top: 5%;
+	margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+form
+{
+	width: 70%;
+	margin: auto;
+}
+
+#titulo /* Título principal da página, que fica abaixo do menu */
+{
+	font-size: 22pt;
+    text-align: center;
+    padding: 80px 0px 10px 0px;
+}
+
+#form-label
+{
+	font-size: 14pt;
+	padding-left: 10px;
+}
+
+#email, #senha
+{
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14pt;
+	width: 100%;
+	background: #f2f2f2;
+	border: none;
+	border-bottom: 2px solid #660094;
+	margin-bottom: 10px;
+	padding: 10px;
+	outline: none;
+	transition: 0.5s;
+}
+
+#email:focus, #senha:focus
+{
+	background-color: #65009410;
+	border-radius: 3px;
+	transition: 0.5s;
+}
+
+#submit
+{
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14pt;
+	color: #ffffff;
+	background: #660094;
+	width: 30%;
+	position: relative;
+	border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	cursor: pointer;
+	left: 35%;
+}
+
+#solicitacoes /* Esqueci a senha */
+{
+	text-align: center;
+	font-size: 14pt;
+	color: #660094;
+	margin-bottom: 25%;
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+/* ---------------------------------------- Rodapé ---------------------------------------- */
+#rodape
+{
+	display: flex;
+	position: relative;
+}
+
+#rodape-logo { width: 10%; }
+
+#rodape-logo-imagem
+{
+	margin: 30px 0 30px 30px;
+	width: 100%;
+}
+
+#rodape-texto
+{
+	width: 100%;
+	font-size: 12pt;
+	font-weight: bold;
+	margin: auto;
+	margin-left: 50px;
+}
+
+i { margin: auto; margin-right: 30px; }
+/* --------------------------------------------------- */
+/* ---            Fim do corpo do site             --- */
+/* --------------------------------------------------- */
+}

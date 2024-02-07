@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ---                                         Mobile                                          --- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 992px)
+{
+body
+{
+	margin: 0;
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+}
+
+#conteudo-menu-mobile, #conteudo-menu-mobile /* Código utilizado para ocultar partes exclusivas do site Mobile */
+{
+	display: none;
+}
+
+/* --------------------------------------------------- */
+/* ---               Corpo do site                 --- */
+/* --------------------------------------------------- */
+#conteudo-site /* Utilizado para site responsivo, centralizando o conteúdo a partir de 1920px de resolução */
+{
+	max-width: 1920px;
+	margin: auto;
+}
+
+/* ---------------------------------------- Título ---------------------------------------- */
+
+#div
+{
+	width: 70%;
+	margin: auto;
+	margin-bottom: 5%;
+}
+
+/* ---------------------------------------- Mensagem ---------------------------------------- */
+
+#mensagem
+{
+	font-size: 46pt;
+	font-weight: bold;
+	margin: 0;
+	margin-top: 10%;
+	margin-bottom: 15px;
+	padding-top: 15%;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+#submit
+{
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	font-size: 28pt;
+	width: 70%;
+	background: #660094;
+	color: #ffffff;
+    border: none;
+	border-radius: 10px;
+	margin-bottom: 110%;
+	padding: 10px 0px 10px 0px;
+	cursor: pointer;
+	position: relative;
+	left: 15%;
+}
+
+/* ---------------------------------------- Rodapé ---------------------------------------- */
+#rodape
+{
+	background: #f2f2f2;
+	display: block;
+	position: relative;
+	margin: auto;
+}
+
+#rodape-logo { width: 490px; margin: auto; }
+
+#rodape-logo-imagem
+{
+	width: 490px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#rodape-texto
+{
+	width: 100%;
+	font-size: 16pt;
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+}
+
+i { margin: auto; margin-top: 30px; margin-bottom: 50px; margin-left: 110px; text-align: center; }
+
+/* --------------------------------------------------- */
+/* ---            Fim do corpo do site             --- */
+/* --------------------------------------------------- */	
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ---                                         Desktop                                         --- */
+/* ----------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 1000px)
+{
+body
+{
+	margin: 0;
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+}
+
+#conteudo-menu-mobile, #conteudo-menu-mobile, #button-menu-mobile, #button-fechar, #banner-mobile, #form-label-tipodecadastro, #tipodecadastro-mobile /* Código utilizado para ocultar partes exclusivas do site Mobile */
+{
+	display: none;
+}
+
+/* --------------------------------------------------- */
+/* ---               Corpo do site                 --- */
+/* --------------------------------------------------- */
+#conteudo-site /* Utilizado para site responsivo, centralizando o conteúdo a partir de 1920px de resolução */
+{
+	max-width: 1920px;
+	margin: auto;
+}
+
+/* ---------------------------------------- Título ---------------------------------------- */
+
+#div
+{
+	width: 60%;
+	margin: auto;
+	margin-bottom: 5%;
+}
+
+/* ---------------------------------------- Mensagem ---------------------------------------- */
+
+#mensagem
+{
+	font-size: 24pt;
+	font-weight: bold;
+	margin: 0;
+	margin-bottom: 15px;
+	padding-top: 15%;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+#submit
+{
+	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14pt;
+	width: 30%;
+	background: #660094;
+	color: #ffffff;
+    border: none;
+	border-radius: 10px;
+	margin-bottom: 35%;
+	padding: 10px 0px 10px 0px;
+	cursor: pointer;
+	position: relative;
+	left: 35%;
+}
+
+/* ---------------------------------------- Rodapé ---------------------------------------- */
+#rodape
+{
+	background: #f2f2f2;
+	display: flex;
+	position: relative;
+}
+
+#rodape-logo { width: 10%; }
+
+#rodape-logo-imagem
+{
+	margin: 30px 0 30px 30px;
+	width: 100%;
+}
+
+#rodape-texto
+{
+	width: 100%;
+	font-size: 12pt;
+	font-weight: bold;
+	margin: auto;
+	margin-left: 50px;
+}
+
+i { margin: auto; margin-right: 30px; }
+
+/* --------------------------------------------------- */
+/* ---            Fim do corpo do site             --- */
+/* --------------------------------------------------- */
+}
