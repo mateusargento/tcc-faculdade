@@ -20,8 +20,11 @@ O principal enfoque é construir um sistema para um profissional de design em es
 <br/><br/>
 
 ## Screenshots
+### Página Inicial
 ![Index](https://raw.githubusercontent.com/mateusargento/tcc-faculdade/main/view/imagens/capturas%20de%20tela/captura%20de%20tela%20index.jpeg)
 
+### Página Fale Conosco
 ![Fale Conosco](https://raw.githubusercontent.com/mateusargento/tcc-faculdade/main/view/imagens/capturas%20de%20tela/captura%20de%20tela%20fale%20conosco.jpeg)
 
+### Página Painel de Controle do Administrador
 ![Painel de Controle do Administrador](https://raw.githubusercontent.com/mateusargento/tcc-faculdade/main/view/imagens/capturas%20de%20tela/captura%20de%20tela%20painel%20de%20controle.jpeg)
